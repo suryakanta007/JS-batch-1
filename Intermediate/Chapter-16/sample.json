@@ -1,0 +1,22 @@
+[{
+    "name":"Surya",
+    "age":20,
+    "isMarried":null,
+    "address":{
+        "city":"Bhubhaneswar",
+        "nearBy":"Near Shiv Mandir, Barmundaa"
+    },
+    "hobbies":["Gym" , "Code" , "Teaching Technology"]
+  
+},
+{
+    "name":"Rohit",
+    "age":22,
+    "isMarried":null,
+    "address":{
+        "city":"Noida",
+        "nearBy":"Metro Station"
+    },
+    "hobbies":["Reading" , "Walking" , "Coffee"]
+}
+]
