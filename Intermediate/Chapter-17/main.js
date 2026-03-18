@@ -4,6 +4,8 @@
 // INvoice 
 
 
+
+
 // 1sec = 1000ms
 // function checkInventory(callBack){
 //     let error = null;
@@ -74,7 +76,7 @@ function chargePaymet(){
             if(error){
                 reject(error)
             }
-            resolve()
+            resolve(chargedAmount)
         }, 2000)
     })
 }
