@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(36, 35, 101, 1) 0%, rgba(93, 93, 207, 1) 14%, rgba(0, 212, 255, 1) 100%);
+    color: #291B1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.chat-container{
+    width: 400px;
+    height: 600px;
+    background-color: #0160C9;
+    backdrop-filter: blur(60px);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chat-container header{
+    background-color: #0C009F;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:10px ;
+}
+
+.chat-container .chat-box{
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px;
+    background: transparent;
+}
+
+.message{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    line-height: 1.4;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.user-message{
+    background-color: #1CA3DE;
+    color: #fff;
+    margin-left: auto;
+    font-weight: 600;
+    align-self: right;
+    text-align: right;
+}
+
+.bot-message{
+    background-color: #fff;
+    color: #1CA3DE;
+    font-weight: 600;
+    align-self: left;
+    margin-right: auto;
+}
+
+.input-area{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    backdrop-filter: blur(30px);
+}
+
+.input-area #user-input{
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background: #fff;
+    color: #333;
+}
+
+.input-area .send-btn{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(17, 15, 65, 1) 5%, rgba(36, 35, 101, 1) 10%, rgba(93, 93, 207, 1) 60%, rgba(0, 212, 255, 1) 100%);
+    cursor: pointer;
+}
