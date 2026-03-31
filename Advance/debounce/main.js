@@ -14,6 +14,7 @@ const search = (query)=>{
     console.log("Search for " , query);
 }
 
+
 const searchWithDebounce = debounce(search,3000);
 
 
